@@ -181,7 +181,7 @@ function loadLabel() {
       labels.map(async (label) => {
           console.log(label)
           const descriptions = []
-          for (let i = 1; i <= 3; i++) {
+          for (let i = 1; i <= 10; i++) {
               try {
                   img = await faceapi.fetchImage(`images/${label}/${i}.jpg`)
               }
